@@ -1,0 +1,220 @@
+@charset "utf-8";
+/* CSS Document */
+.navbar {
+    border-radius: 0px;
+}
+.navbar {
+    position: relative;
+    min-height: 50px;
+    margin-bottom: 0px;
+    border: 1px solid rgb(0, 0, 0);
+}
+.container {
+    width: 1170px;
+    box-shadow: 0 5px 21px rgba(0, 0, 0, 0.42);
+	background-color: #fff;
+}
+body {
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #FFF;
+    background-image: url(../slike/75422c.jpg);
+}
+.navbar-inverse .navbar-brand {
+     color: rgba(168, 168, 168, 1);
+}
+.navbar-inverse {
+    font-size: 15px;
+    background-color: rgba(20, 20, 20, 1);
+    background: -webkit-linear-gradient(top, rgba(77, 77, 77, 1) 0%, rgba(20, 20, 20, 1) 100%);
+    background: linear-gradient(to bottom, rgba(77, 77, 77, 1) 0%, rgba(20, 20, 20, 1) 100%);
+    border-width: 1px;
+    border-radius: 0px;
+	width: 100%;
+}
+.navbar-inverse .navbar-nav>li>a {
+     color: rgba(41, 41, 41, 1);
+    background-color: rgba(184, 177, 177, 1);
+    background: -webkit-linear-gradient(top, rgba(143, 140, 140, 1) 0%, rgba(184, 177, 177, 1) 100%);
+    background: linear-gradient(to bottom, rgba(143, 140, 140, 1) 0%, rgba(184, 177, 177, 1) 100%);
+}
+.navbar-inverse .navbar-nav>li>a:hover,
+.navbar-inverse .navbar-nav>li>a:focus {
+    color: rgba(168, 168, 168, 1);
+    background-color: rgba(0, 0, 0, 1);
+    background: -webkit-linear-gradient(top, rgba(43, 43, 43, 1) 0%, rgba(0, 0, 0, 1) 100%);
+    background: linear-gradient(to bottom, rgba(43, 43, 43, 1) 0%, rgba(0, 0, 0, 1) 100%);
+}
+.navbar-inverse .navbar-nav>.active>a,
+.navbar-inverse .navbar-nav>.active>a:hover,
+.navbar-inverse .navbar-nav>.active>a:focus {
+    color: rgba(176, 174, 174, 1);
+    background-color: rgba(0, 0, 0, 1);
+    background: -webkit-linear-gradient(top, rgba(43, 43, 43, 1) 0%, rgba(0, 0, 0, 1) 100%);
+    background: linear-gradient(to bottom, rgba(43, 43, 43, 1) 0%, rgba(0, 0, 0, 1) 100%);
+}
+.navbar-inverse .navbar-toggle {
+    border-color: #000000;
+}
+.navbar-inverse .navbar-toggle:hover,
+.navbar-inverse .navbar-toggle:focus {
+    background-color: #000000;
+}
+.navbar-inverse .navbar-toggle .icon-bar {
+    background-color: #000000;
+}
+.navbar-inverse .navbar-toggle:hover .icon-bar,
+.navbar-inverse .navbar-toggle:focus .icon-bar {
+    background-color: #141414;
+}
+.navbar-nav>li> .dropdown-menu {
+	color: rgba(41, 41, 41, 1);
+    background-color: rgba(184, 177, 177, 1);
+    background: -webkit-linear-gradient(top, rgba(143, 140, 140, 1) 0%, rgba(184, 177, 177, 1) 100%);
+    background: linear-gradient(to bottom, rgba(143, 140, 140, 1) 0%, rgba(184, 177, 177, 1) 100%);
+}
+.dropdown-menu>li>a:focus, 
+.dropdown-menu>li>a:hover {
+    color: rgba(168, 168, 168, 1);
+    background-color: rgba(0, 0, 0, 1);
+    background: -webkit-linear-gradient(top, rgba(43, 43, 43, 1) 0%, rgba(0, 0, 0, 1) 100%);
+    background: linear-gradient(to bottom, rgba(43, 43, 43, 1) 0%, rgba(0, 0, 0, 1) 100%);
+}
+.btn-default {
+	color: rgba(41, 41, 41, 1);
+    background-color: rgba(184, 177, 177, 1);
+    background: -webkit-linear-gradient(top, rgba(143, 140, 140, 1) 0%, rgba(184, 177, 177, 1) 100%);
+    background: linear-gradient(to bottom, rgba(143, 140, 140, 1) 0%, rgba(184, 177, 177, 1) 100%);
+	border-color: #A7A7A7;
+}
+.btn-default:hover {
+    color: #333;
+    background-color: #e6e6e6;
+    border-color: #101010;
+}
+.btn-primary:hover {
+   color: #333;
+    background-color: #e6e6e6;
+    border-color: #101010;
+}
+.btn-primary {
+   color: rgba(41, 41, 41, 1);
+    background-color: rgba(184, 177, 177, 1);
+    background: -webkit-linear-gradient(top, rgba(143, 140, 140, 1) 0%, rgba(184, 177, 177, 1) 100%);
+    background: linear-gradient(to bottom, rgba(143, 140, 140, 1) 0%, rgba(184, 177, 177, 1) 100%);
+	border-color: #A7A7A7;
+}
+.dropdown-menu {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    z-index: 1000;
+    display: none;
+    float: left;
+    min-width: 160px;
+    padding: 5px 0;
+    margin: 2px 0 0;
+    font-size: 14px;
+    text-align: left;
+    list-style: none;
+    background-color: #fff;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+    border: 1px solid #ccc;
+    border: 1px solid rgba(0, 0, 0, 0.65);
+    border-radius: 4px;
+    -webkit-box-shadow: 0 6px 12px rgba(0,0,0,.175);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.46);
+}
+.dropdown-menu .divider {
+    height: 1px;
+    margin: 9px 0;
+    overflow: hidden;
+    background-color: #353535;
+}
+.navbar-inverse .navbar-nav .open .dropdown-menu>li>a:focus, 
+.navbar-inverse .navbar-nav .open .dropdown-menu>li>a:hover {
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.83);
+}
+.navbar-inverse .navbar-nav .open .dropdown-menu>li>a {
+    color: #1D1D1D;
+}
+.container {
+    padding-right: 50px;
+    padding-left: 50px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.thumbnail {
+    display: block;
+    padding: 4px;
+    margin-bottom: 20px;
+    line-height: 1.42857143;
+    background-color: #949494;
+    border: 1px solid #1D1D1D;
+    border-radius: 4px;
+    -webkit-transition: border .2s ease-in-out;
+    -o-transition: border .2s ease-in-out;
+    transition: border .2s ease-in-out;
+}
+.container {
+    width: 1170px;
+    box-shadow: 0 5px 21px rgb(0, 0, 0);
+    background-color: #3A3A3A;
+}
+a {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+.list-group-item {
+    position: relative;
+    display: block;
+    padding: 10px 15px;
+    margin-bottom: -1px;
+    background-color: #A2A2A2;
+    border: 2px solid #3A3A3A;
+}
+a.list-group-item, button.list-group-item {
+    color: #060606;
+}
+.footer-bot {
+	background-image: url(../slike/wave-footer-vacon.png);
+	}
+.container-nav {
+    padding-right: 0px;
+    padding-left: 0px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.container-nav li {
+	border-right: 1px solid black;
+	border-left: 1px solid black;
+	}
+.navbar-collapse {
+    padding-right: 27px;
+    padding-left: 15px;
+	}
+.top {
+	background-image: url(../slike/top2.png);
+	padding-top: 3px;
+	padding-bottom: 3px;
+	}
+ a:hover {
+	color: #000;
+	}
+.jumbotron {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-bottom: 30px;
+    color: inherit;
+    background-image: url(../slike/pozadina.png);
+    border: 1px solid;
+}
+.mid {
+	background-image: url(../slike/kmid.png);
+}
+a:hover {
+	text-decoration: none;
+	}
